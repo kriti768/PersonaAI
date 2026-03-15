@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Send } from "lucide-react";
 import ChatMessage from "./ChatMessage";
+import aiAvatarImg from "@/assets/ai-avatar.png";
 
 interface Message {
   id: number;
