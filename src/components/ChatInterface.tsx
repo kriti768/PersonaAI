@@ -82,7 +82,7 @@ const ChatInterface = () => {
                 }}
               />
               <img
-                src={new URL("@/assets/ai-avatar.png", import.meta.url).href}
+                src={aiAvatarImg}
                 alt="AI thinking"
                 className="relative w-full h-full rounded-full object-cover scale-[0.85]"
               />
