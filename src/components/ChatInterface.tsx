@@ -63,7 +63,7 @@ const ChatInterface = () => {
       {/* Header */}
       <div className="flex items-center justify-center gap-2 pb-4">
         <h1 className="font-display text-lg font-medium tracking-wide text-foreground/80">
-          Midnight Reflection
+          PersonaAI
         </h1>
       </div>
 
