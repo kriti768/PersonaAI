@@ -1,0 +1,355 @@
+{
+  "users": [
+    {
+      "id": "user_758c576d45dcb3e4",
+      "createdAt": "2026-04-13T15:25:17.911Z",
+      "preferences": {
+        "profilingEnabled": true,
+        "consentGiven": true,
+        "aiMode": "Reflective",
+        "theme": "Night Bloom"
+      },
+      "profile": {
+        "headline": "A conversation-based snapshot of how you currently express and process experience.",
+        "summary": "Your recent conversations suggest a thoughtful and expressive style with reflective emotional coloring. These are reflective cues for self-awareness, not diagnoses.",
+        "communicationStyle": "Thoughtful and expressive",
+        "emotionalStability": 64,
+        "thinkingStyle": 50,
+        "engagementLevel": 55,
+        "traits": [
+          "Thoughtful and expressive",
+          "Emotionally aware",
+          "Emotion-led processing"
+        ],
+        "behavioralPatterns": [
+          "Conversation often circles around general reflection.",
+          "Current tone reads as reflective, which may shift based on stress load.",
+          "You tend to frame thoughts in a constructive way, even when discussing uncertainty."
+        ],
+        "recentInsights": [
+          "Treat these patterns as signals, not fixed labels.",
+          "Notice which topics make your tone more grounded versus more reactive.",
+          "Small wording shifts over time can reveal meaningful emotional trends."
+        ],
+        "sentimentHistory": [
+          {
+            "point": "M1",
+            "value": 1
+          },
+          {
+            "point": "M2",
+            "value": 0
+          }
+        ],
+        "emotionHistory": [
+          {
+            "point": "M1",
+            "tone": "reflective"
+          },
+          {
+            "point": "M2",
+            "tone": "reflective"
+          }
+        ]
+      },
+      "name": "kriti",
+      "email": "kritibhardwaj1920@gmail.com",
+      "passwordHash": "$2a$10$1QYN89sbw/NYgRYTwpJaJeD5wQGZ/a0qf22fHuX8E0XN/8uBeet8K",
+      "consentGiven": true
+    },
+    {
+      "id": "user_7fc5f11a2780865f",
+      "createdAt": "2026-04-20T19:34:52.407Z",
+      "preferences": {
+        "profilingEnabled": true,
+        "consentGiven": true,
+        "aiMode": "Reflective",
+        "theme": "Night Bloom"
+      },
+      "profile": {
+        "headline": "The Art of Expressing Strength While Navigating Inner Worlds",
+        "summary": "You've observed a tendency to project an image of strength in conversations, even when you're not feeling entirely well internally. This suggests a thoughtful approach to self-presentation and a keen awareness of your emotional landscape.",
+        "communicationStyle": "Self-aware and introspective",
+        "emotionalStability": 45,
+        "thinkingStyle": 75,
+        "engagementLevel": 80,
+        "traits": [
+          "Highly self-aware",
+          "Externally resilient",
+          "Perceptive of social dynamics"
+        ],
+        "behavioralPatterns": [
+          "Tends to manage external presentation carefully",
+          "Reflects on personal impact in social settings",
+          "May internalize discomfort rather than express it outwardly"
+        ],
+        "recentInsights": [
+          "Recognition of an internal/external emotional disconnect",
+          "Awareness of personal coping strategies in social interaction",
+          "Observation of how personal feelings influence communication"
+        ],
+        "sentimentHistory": [
+          {
+            "point": "M1",
+            "value": 0
+          }
+        ],
+        "emotionHistory": [
+          {
+            "point": "M1",
+            "tone": "reflective"
+          }
+        ]
+      },
+      "name": "kriti",
+      "email": "kritibhardwaj2306@gmail.com",
+      "passwordHash": "$2a$10$UqK0PCx/CJ2FVi5nSI6fKelN2JDGQxunjaCtlrlI1a/XRrh.bPwta",
+      "consentGiven": true
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conversation_07dcfec3f91a9196",
+      "userId": "user_7fc5f11a2780865f",
+      "title": "I feel like I sound strong in conversations even",
+      "messages": [
+        {
+          "id": "msg_1776714731314_user",
+          "role": "user",
+          "content": "I feel like I sound strong in conversations even when I am not fully okay.",
+          "createdAt": "2026-04-20T19:52:11.314Z"
+        },
+        {
+          "id": "msg_1776714740826_assistant",
+          "role": "assistant",
+          "content": "It sounds like you have a really keen awareness of how you present yourself, even when you're navigating internal challenges. That takes a lot of self-observation and inner strength to recognize.",
+          "createdAt": "2026-04-20T19:52:20.826Z"
+        }
+      ],
+      "createdAt": "2026-04-20T19:50:30.751Z",
+      "updatedAt": "2026-04-20T19:52:20.826Z"
+    },
+    {
+      "id": "conversation_c9f34bd952aa00a8",
+      "userId": "user_7fc5f11a2780865f",
+      "title": "New reflection",
+      "messages": [],
+      "createdAt": "2026-04-20T19:46:53.869Z",
+      "updatedAt": "2026-04-20T19:46:53.869Z"
+    },
+    {
+      "id": "conversation_480a8c33315dcc6b",
+      "userId": "user_7fc5f11a2780865f",
+      "title": "New reflection",
+      "messages": [],
+      "createdAt": "2026-04-20T19:46:44.604Z",
+      "updatedAt": "2026-04-20T19:46:44.604Z"
+    },
+    {
+      "id": "conversation_b49ce8e1dead48c5",
+      "userId": "user_7fc5f11a2780865f",
+      "title": "i am getting sad right now",
+      "messages": [
+        {
+          "id": "msg_1776714287421_user",
+          "role": "user",
+          "content": "i am getting sad right now",
+          "createdAt": "2026-04-20T19:44:47.421Z"
+        },
+        {
+          "id": "msg_1776714294115_assistant",
+          "role": "assistant",
+          "content": "I hear you. It sounds like you're feeling a wave of sadness right now. It's okay to acknowledge those feelings as they arise.",
+          "createdAt": "2026-04-20T19:44:54.115Z"
+        }
+      ],
+      "createdAt": "2026-04-20T19:44:25.303Z",
+      "updatedAt": "2026-04-20T19:44:54.115Z"
+    },
+    {
+      "id": "conversation_b1a20e83700a3428",
+      "userId": "user_7fc5f11a2780865f",
+      "title": "New reflection",
+      "messages": [],
+      "createdAt": "2026-04-20T19:40:58.872Z",
+      "updatedAt": "2026-04-20T19:40:58.872Z"
+    },
+    {
+      "id": "conversation_64ebbd0e51509fab",
+      "userId": "user_7fc5f11a2780865f",
+      "title": "I feel torn between wanting to improve myself an",
+      "messages": [
+        {
+          "id": "msg_1776713824950_user",
+          "role": "user",
+          "content": "I feel torn between wanting to improve myself and feeling exhausted by everything lately. Can you reflect that back to me gently?",
+          "createdAt": "2026-04-20T19:37:04.950Z"
+        },
+        {
+          "id": "msg_1776713825182_assistant",
+          "role": "assistant",
+          "content": "I'm hearing reflective energy in what you shared. It sounds like this has been sitting with you for a while. One pattern that stands out is thoughtful and expressive. If you want, we can unpack what may be sitting underneath that feeling.",
+          "createdAt": "2026-04-20T19:37:05.182Z"
+        },
+        {
+          "id": "msg_1776713835434_user",
+          "role": "user",
+          "content": "good",
+          "createdAt": "2026-04-20T19:37:15.434Z"
+        },
+        {
+          "id": "msg_1776713835720_assistant",
+          "role": "assistant",
+          "content": "I'm hearing reflective energy in what you shared. It sounds like you are trying to make sense of something important. One pattern that stands out is thoughtful and expressive. If you want, we can unpack what may be sitting underneath that feeling.",
+          "createdAt": "2026-04-20T19:37:15.720Z"
+        }
+      ],
+      "createdAt": "2026-04-20T19:37:01.971Z",
+      "updatedAt": "2026-04-20T19:37:15.720Z"
+    },
+    {
+      "id": "conversation_36c2f0c226fea0e4",
+      "userId": "user_7fc5f11a2780865f",
+      "title": "good",
+      "messages": [
+        {
+          "id": "msg_1776713703627_user",
+          "role": "user",
+          "content": "good",
+          "createdAt": "2026-04-20T19:35:03.627Z"
+        },
+        {
+          "id": "msg_1776713704417_assistant",
+          "role": "assistant",
+          "content": "I'm hearing reflective energy in what you shared. It sounds like you are trying to make sense of something important. One pattern that stands out is thoughtful and expressive. If you want, we can unpack what may be sitting underneath that feeling.",
+          "createdAt": "2026-04-20T19:35:04.417Z"
+        }
+      ],
+      "createdAt": "2026-04-20T19:34:52.639Z",
+      "updatedAt": "2026-04-20T19:35:04.417Z"
+    },
+    {
+      "id": "conversation_d11fb81c22619ea7",
+      "userId": "user_758c576d45dcb3e4",
+      "title": "New reflection",
+      "messages": [],
+      "createdAt": "2026-04-13T15:26:29.508Z",
+      "updatedAt": "2026-04-13T15:26:29.508Z"
+    },
+    {
+      "id": "conversation_08f229d8fca8c8be",
+      "userId": "user_758c576d45dcb3e4",
+      "title": "New reflection",
+      "messages": [],
+      "createdAt": "2026-04-13T15:26:26.854Z",
+      "updatedAt": "2026-04-13T15:26:26.854Z"
+    },
+    {
+      "id": "conversation_dc1486f0a904ea80",
+      "userId": "user_758c576d45dcb3e4",
+      "title": "“I’ve been sounding confident lately, but I’m no",
+      "messages": [
+        {
+          "id": "msg_1776093942531_user",
+          "role": "user",
+          "content": "“I’ve been sounding confident lately, but I’m not sure I feel that way underneath.”",
+          "createdAt": "2026-04-13T15:25:42.531Z"
+        },
+        {
+          "id": "msg_1776093942536_assistant",
+          "role": "assistant",
+          "content": "I’m hearing reflective energy in what you shared. It sounds like you are trying to make sense of something important. One pattern that stands out is thoughtful and expressive. If you want, we can unpack what is underneath that feeling and what it seems to be asking from you.",
+          "createdAt": "2026-04-13T15:25:42.536Z"
+        },
+        {
+          "id": "msg_1776093963404_user",
+          "role": "user",
+          "content": "i have been facing stage fear",
+          "createdAt": "2026-04-13T15:26:03.404Z"
+        },
+        {
+          "id": "msg_1776093963407_assistant",
+          "role": "assistant",
+          "content": "I’m hearing reflective energy in what you shared. It sounds like you are trying to make sense of something important. One pattern that stands out is thoughtful and expressive. If you want, we can unpack what is underneath that feeling and what it seems to be asking from you.",
+          "createdAt": "2026-04-13T15:26:03.407Z"
+        }
+      ],
+      "createdAt": "2026-04-13T15:25:18.180Z",
+      "updatedAt": "2026-04-13T15:26:03.407Z"
+    }
+  ],
+  "insights": [
+    {
+      "id": "insight_72cd9e3aaffce521",
+      "userId": "user_758c576d45dcb3e4",
+      "traits": [
+        "Thoughtful and expressive",
+        "Emotionally aware",
+        "Emotion-led processing"
+      ],
+      "behavioralPatterns": [
+        "Conversation often circles around general reflection.",
+        "Current tone reads as reflective, which may shift based on stress load.",
+        "You tend to frame thoughts in a constructive way, even when discussing uncertainty."
+      ],
+      "sentimentHistory": [
+        {
+          "point": "M1",
+          "value": 1
+        },
+        {
+          "point": "M2",
+          "value": 0
+        }
+      ],
+      "emotionHistory": [
+        {
+          "point": "M1",
+          "tone": "reflective"
+        },
+        {
+          "point": "M2",
+          "tone": "reflective"
+        }
+      ],
+      "communicationStyle": "Thoughtful and expressive",
+      "emotionalStability": 64,
+      "thinkingStyle": 50,
+      "engagementLevel": 55,
+      "summary": "Your recent conversations suggest a thoughtful and expressive style with reflective emotional coloring. These are reflective cues for self-awareness, not diagnoses.",
+      "updatedAt": "2026-04-13T15:26:03.415Z"
+    },
+    {
+      "id": "insight_aef07423b0df7ac9",
+      "userId": "user_7fc5f11a2780865f",
+      "traits": [
+        "Highly self-aware",
+        "Externally resilient",
+        "Perceptive of social dynamics"
+      ],
+      "behavioralPatterns": [
+        "Tends to manage external presentation carefully",
+        "Reflects on personal impact in social settings",
+        "May internalize discomfort rather than express it outwardly"
+      ],
+      "sentimentHistory": [
+        {
+          "point": "M1",
+          "value": 0
+        }
+      ],
+      "emotionHistory": [
+        {
+          "point": "M1",
+          "tone": "reflective"
+        }
+      ],
+      "communicationStyle": "Self-aware and introspective",
+      "emotionalStability": 45,
+      "thinkingStyle": 75,
+      "engagementLevel": 80,
+      "summary": "You've observed a tendency to project an image of strength in conversations, even when you're not feeling entirely well internally. This suggests a thoughtful approach to self-presentation and a keen awareness of your emotional landscape.",
+      "updatedAt": "2026-04-20T19:52:20.831Z"
+    }
+  ]
+}

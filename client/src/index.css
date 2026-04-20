@@ -1,0 +1,201 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background: #130a22;
+  color: #f5ecff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.glass-panel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, rgba(45, 25, 68, 0.82), rgba(24, 13, 37, 0.84));
+  backdrop-filter: blur(18px);
+  box-shadow: 0 28px 80px rgba(8, 3, 20, 0.48);
+}
+
+.glass-panel::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(145deg, rgba(255,255,255,0.08), transparent 30%, transparent 75%, rgba(105,163,255,0.08));
+}
+
+.glow-card {
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.04);
+}
+
+.metric-card {
+  min-width: 0;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255,255,255,0.04);
+  padding: 1rem;
+}
+
+.metric-card p,
+.glow-card p,
+.glass-panel p,
+.glass-panel h1,
+.glass-panel h2,
+.glass-panel h3,
+.glass-panel span,
+.glass-panel div {
+  overflow-wrap: anywhere;
+}
+
+.input-field {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.95rem 1rem;
+  color: #f5ecff;
+  outline: none;
+  transition: 180ms ease;
+}
+
+.input-field:focus {
+  border-color: rgba(192, 108, 255, 0.55);
+  box-shadow: 0 0 0 4px rgba(192, 108, 255, 0.1);
+}
+
+.primary-btn {
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ff9a62 0%, #c06cff 52%, #8e4dff 100%);
+  color: #fff6ff;
+  padding: 0.92rem 1.35rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
+  box-shadow: 0 18px 44px rgba(142, 77, 255, 0.32);
+}
+
+.primary-btn:hover {
+  transform: translateY(-1px);
+}
+
+.primary-btn:disabled,
+.secondary-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.secondary-btn {
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  color: #f5ecff;
+  padding: 0.85rem 1.2rem;
+  cursor: pointer;
+  transition: 160ms ease;
+}
+
+.secondary-btn:hover {
+  background: rgba(255,255,255,0.09);
+}
+
+.page-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.page-hero-copy {
+  max-width: 48rem;
+}
+
+.message-user,
+.message-assistant {
+  max-width: min(100%, 38rem);
+  border-radius: 24px;
+  padding: 1rem 1.1rem;
+  line-height: 1.75;
+}
+
+.message-user {
+  align-self: flex-end;
+  background: linear-gradient(135deg, rgba(122, 63, 255, 0.95), rgba(192, 108, 255, 0.82));
+  color: #fff6ff;
+}
+
+.message-assistant {
+  align-self: flex-start;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.code-panel {
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(16, 9, 28, 0.78);
+}
+
+.scene-shell {
+  position: relative;
+  overflow: hidden;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, #5a2d8a 0%, #3f245f 38%, #241238 100%);
+  box-shadow: 0 28px 80px rgba(8, 3, 20, 0.48);
+}
+
+.scene-shell::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255,255,255,0.8) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 28% 9%, rgba(255,255,255,0.7) 0 1.2px, transparent 1.8px),
+    radial-gradient(circle at 56% 20%, rgba(255,255,255,0.8) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 81% 14%, rgba(255,255,255,0.75) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 90% 28%, rgba(255,255,255,0.7) 0 1.1px, transparent 1.8px),
+    linear-gradient(180deg, rgba(255,255,255,0.05), transparent 30%);
+  pointer-events: none;
+}
+
+.scene-hill {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(0.2px);
+}
+
+.scene-message-wrap {
+  position: relative;
+  z-index: 2;
+}
