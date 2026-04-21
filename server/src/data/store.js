@@ -13,7 +13,22 @@ const defaultDb = {
   insights: []
 };
 
+function cloneDb(data) {
+  return JSON.parse(JSON.stringify(data));
+}
+
+if (!globalThis.__personaAiMemoryDb) {
+  globalThis.__personaAiMemoryDb = cloneDb(defaultDb);
+}
+
+const memoryDb = globalThis.__personaAiMemoryDb;
+const useMemoryDb = Boolean(process.env.VERCEL);
+
 async function ensureDb() {
+  if (useMemoryDb) {
+    return;
+  }
+
   try {
     await fs.access(dbPath);
   } catch {
@@ -22,12 +37,23 @@ async function ensureDb() {
 }
 
 async function readDb() {
+  if (useMemoryDb) {
+    return cloneDb(memoryDb);
+  }
+
   await ensureDb();
   const raw = await fs.readFile(dbPath, 'utf8');
   return JSON.parse(raw);
 }
 
 async function writeDb(data) {
+  if (useMemoryDb) {
+    memoryDb.users = data.users;
+    memoryDb.conversations = data.conversations;
+    memoryDb.insights = data.insights;
+    return;
+  }
+
   await fs.writeFile(dbPath, JSON.stringify(data, null, 2), 'utf8');
 }
 
