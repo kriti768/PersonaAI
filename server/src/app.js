@@ -21,4 +21,10 @@ app.use('/api/insights', insightsRouter);
 app.use('/api/profile', profileRouter);
 app.use('/api/privacy', privacyRouter);
 
+app.use((error, _req, res, _next) => {
+  res.status(500).json({
+    message: error?.message || 'Internal server error.'
+  });
+});
+
 export default app;
